@@ -1,0 +1,88 @@
+html,body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.logo-font {
+  font-family: "Caveat", cursive !important;
+}
+
+.hover:hover {
+  background: #ec8903;
+  border-radius: 10px;
+}
+
+.transition {
+  transition: 0.5s;
+}
+
+.hover-dark-yellow:hover {
+  background: #bf740b !important;
+  color: #fff !important;
+}
+
+.fs {
+  font-size: 12px;
+}
+
+.hover-transform {
+  transition: 0.5s;
+}
+
+.hover-transform:hover {
+  transform: scale(1.02);
+}
+
+/* Action Movie Related CSS */
+.hover,
+.blur-area,
+.play-button,
+.title-opacity,
+.content-opacity,
+.hover-box-shadow,
+.hover-white {
+    transition: 0.5s;
+}
+
+.blur-class:hover img {
+     filter: blur(7px) !important;
+}
+
+.blur-class:hover .blur-area {
+  transform: scale(1.1) !important;
+}
+
+.blur-area:hover .play-button {
+  opacity: 1 !important;
+  /* filter: blur(0) !important; */
+}
+
+.blur-class:hover .title-opacity,
+.blur-class:hover .content-opacity {
+    opacity: 1 !important;
+}
+
+/* Acton Movie Area End */
+
+/* Action Movie Play button Resposiveness */
+@media screen and (max-width: 473px) {
+  .play-button a {
+    padding: 10px !important;
+    font-size: 10px;
+  }
+}
+
+
+/* Comdy Movie Section */
+.hover-box-shadow:hover {
+  box-shadow: 0 0 15px #ec8903 !important;
+}
+/*  */
+
+/* Footer */
+.hover-white:hover {
+  color: #fff !important;
+}
